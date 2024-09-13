@@ -1,0 +1,20 @@
+#loginForm{
+    margin: 10px auto;/* To align horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    border-radius: 8px;
+    top: 20%;
+
+    
+}
+#loginForm button{
+    margin-left: auto;
+    display: block;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+
+
