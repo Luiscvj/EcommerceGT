@@ -36,3 +36,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-style: normal;
     font-variation-settings: "wdth" 75;
 }
+.open-sans-italic-expanded{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:italic;
+    font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
+}
