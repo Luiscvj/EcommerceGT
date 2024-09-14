@@ -13,9 +13,6 @@ nav a{
     align-items: center;
     justify-content: center;
     color:#161c24;
+    padding: 2px;
  
-  
-}
-#annoucementBar p{
-    padding-top: 10px;
 }
