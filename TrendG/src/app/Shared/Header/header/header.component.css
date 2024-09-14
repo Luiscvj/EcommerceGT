@@ -1,0 +1,21 @@
+.navTrend{
+    background-color:#161c24 !important;
+    
+}
+
+nav a{
+    margin-left: 40px;
+}
+
+#annoucementBar{
+    background-color:#FFFFFF ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#161c24;
+ 
+  
+}
+#annoucementBar p{
+    padding-top: 10px;
+}
