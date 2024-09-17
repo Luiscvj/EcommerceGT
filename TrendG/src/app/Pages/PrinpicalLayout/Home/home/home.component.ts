@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit, Renderer2 } from '@angular/core';
-
+import _gsap from 'gsap/gsap-core';
 @Component({
   selector: 'app-home',
   standalone: true,
