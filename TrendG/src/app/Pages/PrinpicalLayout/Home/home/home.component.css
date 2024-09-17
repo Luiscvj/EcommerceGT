@@ -1,0 +1,120 @@
+.square{
+    width: 80vh;
+    height: 70vh;
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-13deg);
+    z-index:-1;
+    left:-15vh;
+    top:-5vh;
+    transition: all 0.5s ease;
+    border-right: solid black 6px;
+}
+
+.textBanner{
+    top: 40%;
+    left: 30%;
+    font-size: 26px;
+    margin: 0;
+    position: relative;
+    transform: rotate(10deg);
+    transition: all 0.5s ease;
+}
+
+.textBanner p{
+    margin: 0;
+}
+
+
+@media(max-width:550px){
+    .textBanner{
+        font-size: 16px;
+        left:34%;
+        top:48%
+    }
+}
+
+@media(max-width:400px){
+    .textBanner{
+        font-size: 11px;
+        left: 42%;
+        top:50%
+    }
+}
+
+.line{
+
+    width:2px;
+    height: 100%;
+    position: absolute;
+    background-color: #1e3149;
+    z-index: 1;
+    top:5px;
+    left: 95%;
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .square{
+        width: 70vh;
+        height: 60vh;
+    } 
+}
+
+@media(max-width:550px){
+    .square{
+        width:50vh;
+        height: 40vh;
+    }
+}
+
+@media(max-width: 400px){
+    .square{
+        width: 40vh;
+        height: 30vh;
+    }
+}
+
+
+.homeImageBanner{
+    height: 55vh;
+    width:100%;
+    background-color:#0F1E33;
+    position:relative;
+    display: flex;
+    margin:0 auto;
+    top:-70vh;
+    z-index: -2;
+    transition: all 0.5s ease;
+   
+}
+.homeImageBanner img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4 ;
+  
+}
+
+@media(max-width: 768px){
+    .homeImageBanner{
+        top:-69vh;
+    }
+}
+
+@media(max-width:550px){
+    .homeImageBanner{
+        top:-66.5vh;
+    }
+}
+@media(max-width:400px){
+    .homeImageBanner{
+        top:-65vh;
+    }
+}
+

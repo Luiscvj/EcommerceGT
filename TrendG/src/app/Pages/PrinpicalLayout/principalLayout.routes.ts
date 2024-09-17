@@ -7,18 +7,22 @@ import { AboutComponent } from "./About/about/about.component";
 export const PRINCIPAL_LAYOUT_ROUTES: Routes=[
     {
         path: '',
-        component: PrincipalLayoutComponent  
+        component:PrincipalLayoutComponent,
+        children:[
+            {
+                path: 'home',
+                component:HomeComponent
+            },
+            {
+                path: 'catalog',
+                component:LoginComponent
+            },
+            {
+                path:'about_us',
+                component: AboutComponent
+            }
+        ]
     },
-    {
-        path: 'catalog',
-        component:LoginComponent
-    },
-    {
-        path: 'home',
-        component: HomeComponent
-    },
-    {
-        path:'about_us',
-        component: AboutComponent
-    }
+    
+    
 ]

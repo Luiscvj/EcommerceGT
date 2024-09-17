@@ -6,6 +6,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .custom-body-style{
    background:  linear-gradient(to top right,#263852,#607393);
 }
+.custom-body-style-home{
+    background: #010a13;
+}
+
 
 
 
@@ -27,6 +31,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-weight: 800;
     font-style: normal;
     font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
+}
+
+.open-sans-bold-minimized{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
 }
 
 .open-sans-normal{
