@@ -55,3 +55,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-style:italic;
     font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
 }
+
+
+
+.suse-ExtraBold {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800 ;
+ 
+  }

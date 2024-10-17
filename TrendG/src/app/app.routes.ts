@@ -10,5 +10,5 @@ export const routes: Routes = [
         path:'principalLayout',
         loadChildren: () => import('./Pages/PrinpicalLayout/principalLayout.routes').then(r => r.PRINCIPAL_LAYOUT_ROUTES)
     }
-
+    
 ];

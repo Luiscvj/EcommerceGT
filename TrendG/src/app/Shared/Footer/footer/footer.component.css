@@ -16,3 +16,45 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.quickTitle{
+    font-size:2.5vw;
+    transition: all 0.5s ease;
+}
+
+@media(max-width:800px){
+    .quickTitle{
+        font-size: 3vw;
+        
+    }
+}
+
+@media(max-width: 450px){
+    .quickTitle{
+        font-size:3.5vw;
+        
+    }
+}
+
+
+.linkList{
+    transition: all  0.5s ease;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .linkList{
+        font-size:2vw;
+    }
+}
+
+
+@media(max-width:550px){
+    .linkList{
+        font-size: 2.5vw;
+    }
+}

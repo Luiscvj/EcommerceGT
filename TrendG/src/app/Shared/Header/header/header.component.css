@@ -13,6 +13,15 @@ nav a{
     align-items: center;
     justify-content: center;
     color:#161c24;
-    padding: 2px;
- 
+    font-size: 2vw;
+}
+   
+
+
+
+
+@media(max-width:550px){
+    .navLogo{
+       scale:0.8;
+    }
 }

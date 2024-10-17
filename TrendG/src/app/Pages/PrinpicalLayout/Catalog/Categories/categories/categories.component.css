@@ -1,0 +1,24 @@
+.categoriesSectionsContainer{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+
+.panel{
+    width: auto;
+    height: 40vh;
+    border: none;
+   
+}
+
+.panel.blue{
+    background-color: blue;
+}
+
+
+.panel.red{
+    background-color: red;
+}

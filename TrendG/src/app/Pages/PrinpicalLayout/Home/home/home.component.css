@@ -10,7 +10,28 @@
     transition: all 0.5s ease;
     border-right: solid black 6px;
 }
+#homeBanner{
+   height: 120vh;
+   transition: all 0.5s ease-out;
+}
 
+
+@media(max-width:768px){
+    #homeBanner{
+        height: 100vh;
+    }
+}
+
+@media(max-width:550px){
+    #homeBanner{
+        height: 75vh;
+    }
+}
+@media(max-width:400px){
+    #homeBanner{
+        height: 58vh;
+    }
+}
 .textBanner{
     top: 40%;
     left: 30%;
@@ -19,13 +40,16 @@
     position: relative;
     transform: rotate(10deg);
     transition: all 0.5s ease;
-}
-
-.textBanner p{
-    margin: 0;
+    padding-top: 5%;
 }
 
 
+
+@media(max-width:768px){
+    .textBanner{
+        font-size:22px;
+    }
+}
 @media(max-width:550px){
     .textBanner{
         font-size: 16px;
@@ -36,16 +60,19 @@
 
 @media(max-width:400px){
     .textBanner{
-        font-size: 11px;
+        font-size:10.8px;
         left: 42%;
-        top:50%
+        top:50%;
     }
 }
+
+
+
 
 .line{
 
     width:2px;
-    height: 100%;
+    height: 98%;
     position: absolute;
     background-color: #1e3149;
     z-index: 1;
@@ -68,8 +95,8 @@
 
 @media(max-width:550px){
     .square{
-        width:50vh;
-        height: 40vh;
+        width:55vh;
+        height: 42vh;
     }
 }
 
@@ -116,5 +143,76 @@
     .homeImageBanner{
         top:-65vh;
     }
+}
+
+.boxgsap{
+    display:flex;
+    position: absolute; 
+    top:90vh;
+    left:35vw; 
+    opacity: 0;
+    transition:  all ease 1s;
+   
+}
+
+
+.boxgsap img{
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+    object-fit: cover;
+    scale:0.9;
+    
+
+}
+
+/* Mañana mejorar los breakpoints de estos mediaQueries */
+@media(max-width:850px){
+    .boxgsap{
+        left:24vw;
+    }
+}
+@media(max-width:768px){
+    .boxgsap{
+        scale:0.8;
+        left:25vw;
+        top:85vh;
+       
+       
+        
+    }
+}
+@media(max-width:620px){
+    .boxgsap{
+        left:18vw;
+    }
+}
+@media(max-width:550px){
+    .boxgsap{
+        left:9vw;
+        top:58vh;
+        scale:0.65;
+    }
+}
+@media(max-width:450px){
+    .boxgsap{
+        left:-2vw;
+        scale:0.6;
+        top:55vh;
+    }
+}
+
+@media(max-width:400px){
+    .boxgsap{
+        scale:0.45;
+        left:-8vw;
+        top:40vh;
+    }
+}
+
+
+
+
+#welcoming{
+    display: flex;
+    
 }
 

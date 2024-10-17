@@ -1,5 +1,14 @@
 import { Routes } from "@angular/router";
-import { DashboardComponent } from "../Carts/dashboard/dashboard.component";
-import { HomeComponent } from "./home/home.component";
 
-export const HOME_ROUTES: Routes =[]
+import { HomeComponent } from "./home/home.component";
+import { CategoriesComponent } from "../Catalog/Categories/categories/categories.component";
+
+export const HOME_ROUTES: Routes =[{
+
+   component:HomeComponent,
+    children:[
+        {
+            path:'categories',
+            component:CategoriesComponent
+        }]
+}]
