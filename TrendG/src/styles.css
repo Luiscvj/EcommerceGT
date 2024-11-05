@@ -10,11 +10,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: #010a13;
 }
 
+.custom-body-for-categories{
+    overflow-x: hidden;
+    margin: 0;
+    overflow-y: visible;
+    position: relative;
+    height: unset;
 
-
-
-
-
+}
 
 .open-sans-light-condensed{
     font-family: "Open Sans", sans-serif;
@@ -22,23 +25,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-weight: 300;
     font-style: normal;
     font-variation-settings: "wdth" 75;
-}
-
-
-.open-sans-bold-expanded{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
-}
-
-.open-sans-bold-minimized{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings: "wdth" 100; 
 }
 
 .open-sans-normal{
@@ -56,11 +42,25 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
 }
 
+.open-sans-bold-minimized{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
 
+.open-sans-bold-expanded{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; /*sirve para controlar el  ancho de las letras*/
+}
 
 .suse-ExtraBold {
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800 ;
- 
-  }
+    
+}

@@ -1,24 +1,24 @@
-.categoriesSectionsContainer{
-    width: 500%;
-    height: 100%;
-    display: flex;
-    flex-wrap: nowrap;
+
+.containerCategories{
+    width: 100vw;
+    margin-top: 20vw;
     
+   /*  display: flex; */
 }
-
-
 .panel{
-    width: auto;
-    height: 40vh;
-    border: none;
+    width: 98%; 
    
 }
 
-.panel.blue{
-    background-color: blue;
+
+
+.cardFont{
+    font-size: 120%;
 }
 
+@media(max-width: 900px){
 
-.panel.red{
-    background-color: red;
+    .cardFont{
+        font-size:100%
+    }
 }

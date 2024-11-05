@@ -1,16 +1,46 @@
-<div class="categoriesSectionsContainer">
-    <section class="panel blue" > 
-        <div class="row p-3  me-2">
-            <div class="col-6">Imagen</div>
-            <div class="col-6">Descripcion</div>
-        </div>
-    </section>
+  <div class="containerCategories" >
+    
+    @for(category of categories; track category.category_id){
+      <section  class="panel cardFont categorySection {{category.category_alias}}">
+        <div class="card mb-3"  style="background-color: transparent; color: white;">
+          <div class="row g-2"> 
+        @if(category.category_id %2 == 0)
+        {  
+            <div class="col-md-4">
+              <img src="../../../../../../assets/categories/{{category.category_name}}.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body" >
+                <h5 class="card-title open-sans-bold-expanded">{{category.category_name.toUpperCase()}}</h5>
+                <p class="card-text open-sans-normal  ">{{description[category.category_name]}}</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>    
+      }@else
+      {
+            
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title open-sans-bold-expanded">{{category.category_name.toUpperCase()}}</h5>
+                <p class="card-text open-sans-normal  ">{{description[category.category_name]}}</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="../../../../../../assets/categories/{{category.category_name}}.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+    
+      } 
+   
+     
+    </div> 
+  </div> 
+      </section>
+  }
 
-
-    <section class="panel red">
-        <div class="row p-3 me-2">
-            <div class="col-6">Imagen</div>
-            <div class="col-6">holaj</div>
-        </div>
-    </section>
 </div>
+  
+
+
+
+
